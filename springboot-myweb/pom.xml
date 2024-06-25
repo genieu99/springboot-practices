@@ -23,12 +23,13 @@
   	</properties>
   	
   	<dependencies>
-		<!-- Spring Boot Basic Dependency -->
+		<!-- Spring Boot Web Starter -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		
+		<!-- Spring Boot Test Integration -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
